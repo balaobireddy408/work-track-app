@@ -1,12 +1,4 @@
 import styled from "styled-components";
-import Button from "@material-ui/core/Button";
-
-const PrimaryButton = styled(Button)`
-  && {
-    color: white;
-    margin-right: 10px;
-  }
-`;
 
 const Section = styled.div`
   position: absolute;
@@ -24,4 +16,4 @@ const Title = styled.h1`
   line-height: 24px;
 `;
 
-export { Section, Title,PrimaryButton };
+export { Section, Title };
